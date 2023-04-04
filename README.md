@@ -55,10 +55,10 @@ http://127.0.0.1:8000/register
 Enjoy use!
 
 ⚙️ Stack yang digunakan:
-.Laravel 9
-.SweetAlert
-.Bootstrap 5.2
-.BootstrapIcon
-.BoxIcon
+:black_circle:Laravel 9
+:black_circle:SweetAlert
+:black_circle:Bootstrap 5.2
+:black_circle:BootstrapIcon
+:black_circle:BoxIcon
 
 
