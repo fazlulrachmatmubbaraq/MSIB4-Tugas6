@@ -1,36 +1,50 @@
-## Run Locally
+📖 How To Use
+Clone this repository
 
-Clone the project
+git clone [https://github.com/ferdyhape/latihan_minibos_gits.git](https://github.com/fazlulrachmatmubbaraq/MSIB4-Tugas6.git)
+Copy paste .env.example file and rename as .env
 
-```bash
-  git clone https://github.com/fazlulrachmatmubbaraq/MSIB4-Tugas6.git
-```
+Adjust the database name in the env file on DB_DATABASE
 
-Go to the project directory
+Generate Key
 
-```bash
-  cd project-name
-```
+php artisan key:generate
+Install dependencies
 
--   Copy .env.example file to .env and edit database credentials there
+composer install
+Generate mirror link
 
-```bash
-    composer install
-```
+php artisan storage:link
+Migrate the tables
 
-```bash
-    php artisan key:generate
-```
+php artisan migrate
+Insert the data from seeder to database
 
-```bash
-    php artisan artisan migrate:fresh --seed
-```
+php artisan db:seed
+Start the server
 
-```bash
-    php artisan storage:link
-```
+php artisan serve
+Login with this crediential
 
-#### Login
+If you want to use admin role (can dashboard access):
 
--   email = admin@example.com
--   password = 123
+email = admin@example.com
+password = 123
+
+If you want to use non admin role (can't dashboard access):
+email = user12@example.com
+
+password = 12345678
+You can also use the register feature, but you don't get admin access (can't dashboard access):
+
+http://127.0.0.1:8000/register
+Enjoy use!
+
+⚙️ Technology Used:
+Laravel 9
+SweetAlert
+Bootstrap 5.2
+BootstrapIcon
+BoxIcon
+
+
