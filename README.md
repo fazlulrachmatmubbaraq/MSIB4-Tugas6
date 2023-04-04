@@ -56,9 +56,13 @@ Enjoy use!
 
 ⚙️ Stack yang digunakan:
 :black_circle:Laravel 9
+
 :black_circle:SweetAlert
+
 :black_circle:Bootstrap 5.2
+
 :black_circle:BootstrapIcon
+
 :black_circle:BoxIcon
 
 
